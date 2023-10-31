@@ -1,0 +1,23 @@
+{
+  "name": "whatsappchatopener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankush28/Whatsapp-Chat-Opener-Telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankush28/Whatsapp-Chat-Opener-Telegram-bot/issues"
+  },
+  "homepage": "https://github.com/ankush28/Whatsapp-Chat-Opener-Telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
