@@ -14,7 +14,7 @@ bot.onText(/\/start/, (msg) => {
     To generate a WhatsApp chat link, simply send a phone number in any valid format. 📨
 
     Examples:
-    +919414767321
+    9414767321
 
     Let's get started! 😃
   `;
@@ -25,8 +25,10 @@ bot.onText(/\/start/, (msg) => {
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
+
+  
   if(text !== '/start'){
-    const whatsappLink = `https://wa.me/${msg.text}`;
+    const whatsappLink = `https://wa.me/+91${msg.text}`;
 
     bot.sendMessage(chatId, 'Here is your WhatsApp chat link:', {
       reply_markup: {
